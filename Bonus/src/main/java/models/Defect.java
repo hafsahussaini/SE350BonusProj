@@ -1,5 +1,11 @@
 package models;
 
+/*
+    This Defect class will represent a single defect or
+    error thats found in the code. It's pretty boring and
+    just has fields getters and setters to break down the
+    specific defect.
+ */
 public class Defect {
     private String filePath;
     private String rule;
@@ -11,5 +17,23 @@ public class Defect {
         this.description = description;
     }
 
-    // getters and setters
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public String getRule() {
+        return rule;
+    }
+
+    public void setRule(String rule) {
+        this.rule = rule;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

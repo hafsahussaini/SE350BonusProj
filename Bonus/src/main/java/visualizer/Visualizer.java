@@ -4,6 +4,7 @@ import models.Defect;
 
 import java.util.List;
 
+// Here I was going to visualize the defects found by the static code analyzer...
 public class Visualizer {
     private List<Defect> defects;
 
@@ -12,7 +13,6 @@ public class Visualizer {
     }
 
     public void show() {
-        // Visualize the defects using a chosen library (e.g. JFreeChart or Excel)
-        // This could include filtering or sorting options
+        // ...using the JFreeChart library
     }
 }
