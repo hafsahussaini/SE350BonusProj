@@ -7,4 +7,5 @@ The code analyzer is not [yet] functional but you can still see the general stru
   - Using the CSV library to write the results of the code analysis to a CSV file
   - Testing and debugging source code
   - Using the JFreeChart as a visualization library to visualize defects found in the code
+
 Please see my comments on each file to see more details. 
