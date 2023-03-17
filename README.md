@@ -1,5 +1,5 @@
 ## SE 350 Bonus Implementation Project: Java-based Git Repository Static Code Analysis Tool
-This code analyzer project was done for SE 350 class at DePaul (Winter 2023).
+This code analyzer project was done for the SE 350 class at DePaul (Winter 2023).
 The code analyzer is not [yet] functional but you can still see the general structure of the steps/implementation needed behind static code analyzing, which include but aren't limited to:
   - Retrieving a git repo and go through its source code
   - Using the PMD static analysis tool which is a tool that can detect issues like bugs, code smells, and other problems in source code
